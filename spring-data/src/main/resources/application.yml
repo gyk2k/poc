@@ -4,3 +4,6 @@ spring:
       keyspace-name: spring_data
       contact-points: localhost
       schemaAction: CREATE_IF_NOT_EXISTS
+    rest: 
+      basePath: /api
+      return-body-on-create: true
